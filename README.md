@@ -12,10 +12,10 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Kailany Moreira
+- Matricula: 896460
+- Proposta de projeto escolhida: Portal de Séries
+- Breve descrição sobre seu projeto: Ele abre para uma página mais detalhada sobre as informações pedidas
 
 ## Print da versão responsiva com CSS puro
 

@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #131212;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin: 0;
+  }
+
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  nav a:hover {
+    background-color: #555;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+  }
+
+  .navbar-nav li {
+    margin: 0 10px;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .carousel {
+    max-width: 100%;
+    position: relative;
+  }
+
+  .carousel-inner {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .carousel-item {
+    flex: 0 0 100%;
+    display: block;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .carousel-indicators button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .carousel-control-prev {
+    left: 10px;
+  }
+
+  .carousel-control-next {
+    right: 10px;
+  }
+
+  .container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 18rem;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .card-text {
+    margin-top: 10px;
+    color: #555;
+  }
+
+  .btn-primary {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .btn-primary:hover {
+    background-color: #555;
+  }
